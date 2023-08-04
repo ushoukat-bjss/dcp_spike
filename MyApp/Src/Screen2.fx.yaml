@@ -1,2 +1,21 @@
 Screen2 As screen:
 
+    Rectangle2 As rectangle:
+        Height: =220
+        Width: =472
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Form1 As form:
+        X: =60
+        Y: =60
+        ZIndex: =2
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Text: ="Text"
+        X: =80
+        Y: =80
+        ZIndex: =3
+
