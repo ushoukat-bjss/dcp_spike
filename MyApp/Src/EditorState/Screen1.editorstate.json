@@ -251,7 +251,7 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "DataCardKey10": {
+    "DataCardKey11": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -310,10 +310,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "horizontal",
+      "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
-      "Name": "DataCardKey10",
-      "ParentIndex": 1,
+      "Name": "DataCardKey11",
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1073,7 +1073,7 @@
       "StyleName": "accentLabelStyle",
       "Type": "ControlInfo"
     },
-    "DataCardValue10": {
+    "DataCardValue11": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -1163,10 +1163,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "horizontal",
+      "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
-      "Name": "DataCardValue10",
-      "ParentIndex": 2,
+      "Name": "DataCardValue11",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2111,7 +2111,7 @@
       "LayoutName": "horizontal",
       "MetaDataIDKey": "",
       "Name": "email_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2755,7 +2755,7 @@
       "StyleName": "criticalErrorLabelStyle",
       "Type": "ControlInfo"
     },
-    "ErrorMessage6": {
+    "ErrorMessage7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -2821,10 +2821,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "horizontal",
+      "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
-      "Name": "ErrorMessage6",
-      "ParentIndex": 3,
+      "Name": "ErrorMessage7",
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3114,7 +3114,7 @@
       "LayoutName": "horizontal",
       "MetaDataIDKey": "",
       "Name": "first_name_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3585,7 +3585,7 @@
       "StyleName": "defaultLabelStyle",
       "Type": "ControlInfo"
     },
-    "last_name_DataCard1": {
+    "Last Name_DataCard1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -3660,10 +3660,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "horizontal",
+      "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "last_name_DataCard1",
-      "ParentIndex": 2,
+      "Name": "Last Name_DataCard1",
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4375,7 +4375,7 @@
       "StyleName": "accentLabelStyle",
       "Type": "ControlInfo"
     },
-    "StarVisible6": {
+    "StarVisible7": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -4441,10 +4441,10 @@
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
       "IsLocked": true,
-      "LayoutName": "horizontal",
+      "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
-      "Name": "StarVisible6",
-      "ParentIndex": 0,
+      "Name": "StarVisible7",
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
