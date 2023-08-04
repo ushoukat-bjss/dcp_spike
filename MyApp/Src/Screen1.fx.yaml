@@ -1,0 +1,14 @@
+Screen1 As screen:
+
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =528
+        Y: =216
+        ZIndex: =1
+
+    Button1 As button:
+        Text: ="Button"
+        X: =608
+        Y: =331
+        ZIndex: =2
+
