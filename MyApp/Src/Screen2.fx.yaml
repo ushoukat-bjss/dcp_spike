@@ -14,7 +14,7 @@ Screen2 As screen:
 
     Label1 As label:
         Color: =RGBA(255, 255, 255, 1)
-        Text: ="Text"
+        Text: ="Text hello world from usama"
         X: =80
         Y: =80
         ZIndex: =3
