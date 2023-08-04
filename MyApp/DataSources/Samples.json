@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crb89_samples",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crb89_sample",
+    "MaxGetRowsCount": 500,
+    "Name": "Samples",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crb89_location": "Location",
+      "crb89_name": "Name",
+      "crb89_occupation": "Occupation",
+      "crb89_sample_AsyncOperations": "System Jobs",
+      "crb89_sample_BulkDeleteFailures": "Bulk Delete Failures",
+      "crb89_sample_DuplicateBaseRecord": "Duplicate Records (crb89_sample_DuplicateBaseRecord)",
+      "crb89_sample_DuplicateMatchingRecord": "Duplicate Records (crb89_sample_DuplicateMatchingRecord)",
+      "crb89_sample_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crb89_sample_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crb89_sample_ProcessSession": "Process Sessions",
+      "crb89_sample_SyncErrors": "Sync Errors",
+      "crb89_sampleid": "Sample",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Samples",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Samples (Views)",
+    "Name": "_crb89_sample_views",
+    "RelatedEntityName": "Samples",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3556fbca-819d-4bc9-912c-9b7a68ec8cde": "Sample Associated View",
+      "63b19a8c-08d8-46fd-87db-0119ff654557": "Active Samples",
+      "6d2febf6-3650-49bc-95d6-24fe96c02e34": "Sample Lookup View",
+      "dc0d021e-0c62-40f5-9941-05613d3d3742": "Inactive Samples",
+      "fb840336-aba0-412e-ad9d-13233c1d166a": "Sample Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Samples)",
+    "Name": "crb89_sample_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Samples"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Samples",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Samples)",
+    "Name": "crb89_sample_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Samples"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Samples",
+    "Type": "OptionSetInfo"
+  }
+]

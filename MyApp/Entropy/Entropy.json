@@ -1,26 +1,97 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 2
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 8,
+    "Component1": 4,
+    "Dropdown1": 27,
+    "Host": 3,
+    "Label1": 11,
+    "Rectangle2": 10,
+    "Rectangle2_1": 12,
+    "Screen1": 6,
+    "Screen2": 9,
+    "TextInput1": 7
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 19:19:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderComponentMetadata": {
+    "31d27a532fde47469c1065720e2fda06": 0
+  },
+  "OrderComponentTemplate": {
+    "31d27a532fde47469c1065720e2fda06": 0
+  },
+  "OrderDataSource": {
+    "CustomGallerySample": 4,
+    "DropDownSample": 5,
+    "Samples": 3,
+    "Samples\\crb89_sample_statecode": 0,
+    "Samples\\crb89_sample_statuscode": 1,
+    "Samples\\default.cds_crb89_sample_views": 2
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "dropdown": 4,
+    "label": 3,
+    "rectangle": 2,
+    "text": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Component1": {},
+    "Dropdown1": {},
+    "Host": {},
+    "Label1": {},
+    "Rectangle2": {},
+    "Rectangle2_1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "TextInput1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 1,
+    "Component1": 1,
+    "Dropdown1": 5,
+    "Host": 0,
+    "Label1": 4,
+    "Rectangle2": 2,
+    "Rectangle2_1": 3,
+    "Screen1": 5,
+    "Screen2": 8,
+    "TextInput1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0136794,
+    "ControlCount": {
+      "31d27a532fde47469c1065720e2fda06": 1,
+      "button": 1,
+      "label": 1,
+      "rectangle": 3,
+      "screen": 2,
+      "text": 1
+    },
+    "DeserializationLoadTime": 0.0568734
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }

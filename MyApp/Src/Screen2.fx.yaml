@@ -1,10 +1,10 @@
 Screen2 As screen:
 
     Rectangle2 As rectangle:
-        Height: =220
-        Width: =472
+        Height: =215
+        Width: =457
         X: =40
-        Y: =40
+        Y: =44
         ZIndex: =1
 
     Label1 As label:
@@ -13,4 +13,17 @@ Screen2 As screen:
         X: =80
         Y: =80
         ZIndex: =3
+
+    Rectangle2_1 As rectangle:
+        Height: =191
+        Width: =413
+        X: =915
+        Y: =44
+        ZIndex: =4
+
+    Dropdown1 As dropdown:
+        Items: =Samples
+        X: =40
+        Y: =369
+        ZIndex: =5
 
