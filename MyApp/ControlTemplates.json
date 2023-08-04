@@ -27,20 +27,6 @@
     "OverridableProperties": {},
     "Version": "2.2.0"
   },
-  "form": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/form",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "form",
-    "OverridableProperties": {},
-    "Version": "2.4.0"
-  },
   "groupContainer": {
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
@@ -64,7 +50,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "hostControl",
     "OverridableProperties": {},
-    "Version": "1.6.0"
+    "Version": "1.5.4"
   },
   "label": {
     "CustomGroupControlTemplateName": "",
