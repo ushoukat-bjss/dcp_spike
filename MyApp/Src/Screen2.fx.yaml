@@ -7,11 +7,6 @@ Screen2 As screen:
         Y: =40
         ZIndex: =1
 
-    Form1 As form:
-        X: =60
-        Y: =60
-        ZIndex: =2
-
     Label1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Text: ="Text hello world from usama"
