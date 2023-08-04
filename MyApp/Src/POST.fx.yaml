@@ -1,4 +1,4 @@
-Screen1 As screen:
+POST As screen:
 
     Form5 As form:
         DataSource: =issues

@@ -128,7 +128,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
+    "POST",
+    "GET",
     "Screen2"
   ]
 }
