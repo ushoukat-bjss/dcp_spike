@@ -1,0 +1,103 @@
+[
+  {
+    "DisplayName": "issues (Views)",
+    "Name": "_crb89_issue_views",
+    "RelatedEntityName": "issues",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5aa53ade-dd55-4249-8b88-fbed75f629d2": "issue Associated View",
+      "797e9dba-b0a6-4cc4-a299-f6149dd2e90e": "issue Advanced Find View",
+      "f44e7ec3-877a-40f2-a670-9139a3ac4498": "Active issues",
+      "f5be7178-2458-45a4-b774-9ccfe63f0450": "Inactive issues",
+      "f94f849e-7419-4845-9151-37460999ea5f": "issue Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (issues)",
+    "Name": "crb89_issue_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "issues"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "issues",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (issues)",
+    "Name": "crb89_issue_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "issues"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "issues",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crb89_issues",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crb89_issue",
+    "MaxGetRowsCount": 500,
+    "Name": "issues",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crb89_age": "age",
+      "crb89_email": "email",
+      "crb89_issue_AsyncOperations": "System Jobs",
+      "crb89_issue_BulkDeleteFailures": "Bulk Delete Failures",
+      "crb89_issue_DuplicateBaseRecord": "Duplicate Records (crb89_issue_DuplicateBaseRecord)",
+      "crb89_issue_DuplicateMatchingRecord": "Duplicate Records (crb89_issue_DuplicateMatchingRecord)",
+      "crb89_issue_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crb89_issue_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crb89_issue_ProcessSession": "Process Sessions",
+      "crb89_issue_SyncErrors": "Sync Errors",
+      "crb89_issueid": "issue",
+      "crb89_last_name": "last_name (crb89_last_name)",
+      "crb89_name": "first_name",
+      "crb89_user_id": "user_id",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_last_name": "last_name (new_last_name)",
+      "new_lastname": "Last Name",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "issues",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

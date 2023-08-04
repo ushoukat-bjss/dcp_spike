@@ -6,6 +6,13 @@
       "Values": {
         "Information": "f8267c90-3458-4d87-a4e8-dfaf6b641d1d"
       }
+    },
+    {
+      "Kind": "default.cds_crb89_issue_forms",
+      "Namespace": "issues (Forms)",
+      "Values": {
+        "Information": "260f465a-ab8e-48c8-bb4e-fd019e7b75a6"
+      }
     }
   ]
 }
