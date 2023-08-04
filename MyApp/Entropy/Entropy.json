@@ -1,85 +1,26 @@
 {
-  "ComponentIndexes": {
-    "Component1": 2
-  },
+  "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 8,
-    "Component1": 4,
-    "Host": 3,
-    "Label1": 12,
-    "Rectangle1": 5,
-    "Rectangle2": 10,
-    "Screen1": 6,
-    "Screen2": 9,
-    "TextInput1": 7
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 15:32:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {
-    "31d27a532fde47469c1065720e2fda06": 0
-  },
-  "OrderComponentTemplate": {
-    "31d27a532fde47469c1065720e2fda06": 0
-  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 1,
-    "label": 3,
-    "rectangle": 2,
-    "text": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Button1": {},
-    "Component1": {},
-    "Host": {},
-    "Label1": {},
-    "Rectangle1": {},
-    "Rectangle2": {},
-    "Screen1": {},
-    "Screen2": {},
-    "TextInput1": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 1,
-    "Component1": 0,
-    "Host": 0,
-    "Label1": 0,
-    "Rectangle1": 0,
-    "Rectangle2": 0,
-    "Screen1": 0,
-    "Screen2": 0,
-    "TextInput1": 0
-  },
+  "PublishOrderIndices": {},
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0399033,
-    "ControlCount": {
-      "31d27a532fde47469c1065720e2fda06": 1,
-      "button": 1,
-      "form": 1,
-      "label": 1,
-      "rectangle": 2,
-      "screen": 2,
-      "text": 1
-    },
-    "DeserializationLoadTime": 1.2682463
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
