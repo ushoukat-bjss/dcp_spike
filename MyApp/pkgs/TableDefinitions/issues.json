@@ -1,11 +1,7 @@
 {
   "DatasetName": "default.cds",
   "EntityName": "issues",
-  "InstanceUrl": "https://orgd84d8dd3.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "crb89_issues",
-    "logicalName": "crb89_issue"
-  },
+  "InstanceUrl": "https://orgb1b9e7ae.crm.dynamics.com/",
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orgd84d8dd3.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('crb89_issue')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

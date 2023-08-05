@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr6a8_users",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr6a8_user",
+    "Name": "DCP_USERS",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr6a8_email": "Email",
+      "cr6a8_lastname": "Last Name",
+      "cr6a8_name": "First Name",
+      "cr6a8_user_AsyncOperations": "System Jobs",
+      "cr6a8_user_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr6a8_user_DuplicateBaseRecord": "Duplicate Records (cr6a8_user_DuplicateBaseRecord)",
+      "cr6a8_user_DuplicateMatchingRecord": "Duplicate Records (cr6a8_user_DuplicateMatchingRecord)",
+      "cr6a8_user_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr6a8_user_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr6a8_user_ProcessSession": "Process Sessions",
+      "cr6a8_user_SyncErrors": "Sync Errors",
+      "cr6a8_userid": "User",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "DCP_USERS",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "DCP_USERS (Views)",
+    "Name": "_cr6a8_user_views",
+    "RelatedEntityName": "DCP_USERS",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "023c0e95-c13b-4f78-8a3d-9c722ae8ed5f": "User Lookup View",
+      "0cbfbabd-4463-4f96-a7e9-16718126c4f2": "Inactive Users",
+      "1cf5164f-1b91-4d28-8df7-f3ce4c96fad5": "User Advanced Find View",
+      "d3f92bb2-70b5-484a-bda2-437791e24ef0": "Active Users",
+      "df291203-ea68-4a57-8649-285294a34923": "User Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (DCP_USERS)",
+    "Name": "cr6a8_user_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "DCP_USERS"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "DCP_USERS",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (DCP_USERS)",
+    "Name": "cr6a8_user_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "DCP_USERS"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "DCP_USERS",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -24,6 +24,13 @@
         "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
         "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
       }
+    },
+    {
+      "Kind": "default.cds_cr6a8_user_forms",
+      "Namespace": "DCP_USERS (Forms)",
+      "Values": {
+        "Information": "f1b124f2-a208-4466-9e11-959242ef0b0a"
+      }
     }
   ]
 }

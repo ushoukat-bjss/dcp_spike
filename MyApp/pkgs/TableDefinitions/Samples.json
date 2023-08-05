@@ -1,11 +1,7 @@
 {
   "DatasetName": "default.cds",
   "EntityName": "Samples",
-  "InstanceUrl": "https://orgd84d8dd3.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "crb89_samples",
-    "logicalName": "crb89_sample"
-  },
+  "InstanceUrl": "https://orgb1b9e7ae.crm.dynamics.com/",
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orgd84d8dd3.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('crb89_sample')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
