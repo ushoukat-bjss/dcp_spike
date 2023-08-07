@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr6a8_user",
+    "MaxGetRowsCount": 500,
     "Name": "DCP_USERS",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
